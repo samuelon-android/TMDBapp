@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TMDBapp</string>
+    <string name="popularMovies">Popular Movies</string>
+    <string name="playingMovies">Playing Now</string>
 </resources>

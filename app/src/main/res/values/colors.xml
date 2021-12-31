@@ -7,4 +7,22 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+
+    <!--mis colores-->
+    <color name="primaryColor">#F9A030</color>
+    <color name="primaryLightColor">#FB930F</color>
+    <color name="primaryDarkColor">#C87000</color>
+    <color name="secondaryColor">#48A0FF </color>
+    <color name="secondaryLightColor">#74A2D3</color>
+    <color name="secondaryDarkColor">#126BCB</color>
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="secondaryTextColor">#ffffff</color>
+
+    <color name="background">#f5f5f5</color>
+    <color name="backgroundTextColor">#000000</color>
+    <color name="surface">#ffffff</color>
+    <color name="surfaceTextColor">#000000</color>
+    <color name="error">#d50000</color>
+    <color name="errorTextColor">#ffffff</color>
 </resources>

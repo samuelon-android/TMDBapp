@@ -13,4 +13,45 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+
+    <style name="Theme.MyTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!--colores de mi tema-->
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryDarkColor</item>
+        <item name="colorOnPrimary">@color/primaryTextColor</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorSecondaryVariant">@color/secondaryDarkColor</item>
+        <item name="colorOnSecondary">@color/secondaryTextColor</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:navigationBarColor" tools:ignore="NewApi">@color/primaryDarkColor</item>
+        <item name="android:windowLightNavigationBar" tools:ignore="NewApi">false</item>
+        <item name="android:navigationBarDividerColor" tools:ignore="NewApi">?colorControlHighlight</item>
+
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorError">@color/error</item>
+
+        <item name="colorOnBackground">@color/backgroundTextColor</item>
+        <item name="colorOnSurface">@color/surfaceTextColor</item>
+        <item name="colorOnError">@color/errorTextColor</item>
+
+        <!--my shapes-->
+        <item name="shapeAppearanceSmallComponent">@style/Theme.MyTheme.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/Theme.MyTheme.MediumComponent</item>
+
+        <!--my transitions-->
+        <item name="android:windowEnterTransition">@transition/slide</item>
+        <item name="android:windowExitTransition">@transition/slide</item>
+        <item name="android:windowTransitionBackgroundFadeDuration">2000</item>
+
+    </style>
+
 </resources>
