@@ -7,6 +7,8 @@ import android.os.Bundle
 import androidx.databinding.DataBindingUtil
 import com.example.tmdbapp.R
 import com.example.tmdbapp.databinding.ActivityHomeBinding
+import com.example.tmdbapp.presentation.playingmovies.PlayingMoviesActivity
+import com.example.tmdbapp.presentation.popularmovies.PopularMoviesActivity
 
 class HomeActivity : AppCompatActivity() {
 
@@ -19,12 +21,12 @@ class HomeActivity : AppCompatActivity() {
         binding.apply {
 
             btnPopularMovies.setOnClickListener {
-                val intent = Intent(this@HomeActivity,PopularMoviesActivity::class.java)
+                val intent = Intent(this@HomeActivity, PopularMoviesActivity::class.java)
                 startActivity(intent,ActivityOptions.makeSceneTransitionAnimation(this@HomeActivity).toBundle())
             }
 
             btnPlayingMovies.setOnClickListener {
-                val intent = Intent(this@HomeActivity,PlayingMoviesActivity::class.java)
+                val intent = Intent(this@HomeActivity, PlayingMoviesActivity::class.java)
                 startActivity(intent,ActivityOptions.makeSceneTransitionAnimation(this@HomeActivity).toBundle())
             }
 

@@ -2,7 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.tmdbapp">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
+        android:name=".presentation.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -10,10 +13,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyTheme">
         <activity
-            android:name=".presentation.PlayingMoviesActivity"
+            android:name=".presentation.playingmovies.PlayingMoviesActivity"
             android:exported="false" />
         <activity
-            android:name=".presentation.PopularMoviesActivity"
+            android:name=".presentation.popularmovies.PopularMoviesActivity"
             android:exported="false" />
         <activity
             android:name=".presentation.HomeActivity"

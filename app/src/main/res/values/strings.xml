@@ -2,4 +2,6 @@
     <string name="app_name">TMDBapp</string>
     <string name="popularMovies">Popular Movies</string>
     <string name="playingMovies">Playing Now</string>
+    <string name="movie_poster">Image of the Movie</string>
+    <string name="error">Sorry, try again... No data available</string>
 </resources>

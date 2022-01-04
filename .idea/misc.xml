@@ -3,9 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Escritorio/practicas_android/app/app/src/main/res/layout/activity_home.xml" value="0.25" />
         <entry key="..\:/Escritorio/practicas_android/app/app/src/main/res/layout/activity_main.xml" value="0.23505434782608695" />
         <entry key="..\:/Escritorio/practicas_android/app/app/src/main/res/layout/activity_playing_movies.xml" value="0.2359375" />
         <entry key="..\:/Escritorio/practicas_android/app/app/src/main/res/layout/activity_popular_movies.xml" value="0.25" />
+        <entry key="..\:/Escritorio/practicas_android/app/app/src/main/res/layout/list_item.xml" value="0.25" />
+        <entry key="..\:/Escritorio/practicas_android/app/app/src/main/res/menu/update.xml" value="0.25" />
       </map>
     </option>
   </component>
